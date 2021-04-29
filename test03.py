@@ -1,5 +1,5 @@
 import unittest
-from Roman_samples01 import RomanSamples
+from Roman_samples03 import RomanSamples
 
 class RomanToIntTest(unittest.TestCase):
 
@@ -23,3 +23,6 @@ class RomanToIntTest(unittest.TestCase):
 
     def test_roman07(self):
     	self.assertEqual(RomanSamples.RomanToInt("M"), 1000)
+
+    def test_roman08(self):
+        self.assertEqual(RomanSamples.RomanToInt("P"), -1)

@@ -11,5 +11,6 @@ class RomanSamples:
 			"D" : 500,
 			"M" : 1000
 		}
-
+		if str not in romanCaracter:
+			return -1
 		return romanCaracter[str]
